@@ -1,8 +1,9 @@
-# appspector_flutter_app
+# AppSpector integration sample
 
 An AppSpector Flutter application.
 
-## Getting Started
+# About Us
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Looking for better debugging instrument? Try [AppSpector](https://appspector.com). With AppSpector you can remotely debug your app running in the same room or on another continent. You can measure app performance, view CoreData and SQLite content, logs, network requests and many more in realtime. This is the instrument that you've been looking for.
+
+![](https://storage.googleapis.com/appspector-support/screenshots/appspector_twittercover2.png)
