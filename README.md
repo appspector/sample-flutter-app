@@ -1,6 +1,6 @@
 # AppSpector integration sample
 
-An AppSpector Flutter application.
+This project demonstrates basic AppSpector integration into Flutter app
 
 # About Us
 
