@@ -1,16 +1,41 @@
 PODS:
   - AppSpectorSDK (1.1.1)
+  - Flutter (1.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - path_provider (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
 
 DEPENDENCIES:
   - AppSpectorSDK
+  - Flutter (from `Pods/.symlinks/flutter/ios`)
+  - path_provider (from `Pods/.symlinks/plugins/path_provider/ios`)
+  - sqflite (from `Pods/.symlinks/plugins/sqflite/ios`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AppSpectorSDK
+    - FMDB
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Pods/.symlinks/flutter/ios
+  path_provider:
+    :path: Pods/.symlinks/plugins/path_provider/ios
+  sqflite:
+    :path: Pods/.symlinks/plugins/sqflite/ios
 
 SPEC CHECKSUMS:
   AppSpectorSDK: f573d85caabf3d67a9fa405390bf18a58255071b
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  path_provider: 09407919825bfe3c2deae39453b7a5b44f467873
+  sqflite: 801b6b0983f722fa29baf00d1476e4556ada6de4
 
-PODFILE CHECKSUM: 90d04c99bbc5f42a0f29d73f6dc2bef69b264d7d
+PODFILE CHECKSUM: 8f3471ed5224f135cb12c740a830b93580887539
 
 COCOAPODS: 1.5.0

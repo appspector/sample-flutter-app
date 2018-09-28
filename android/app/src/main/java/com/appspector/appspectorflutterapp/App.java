@@ -16,6 +16,6 @@ public class App extends FlutterApplication {
                 .build(this)
                 .withDefaultMonitors()
                 .addMetadata(metadata)
-                .run("ZGZkOGNmNzgtM2FjNi00NmVlLWJjNjMtZThkNGNhODQxZmIw");
+                .run("MWM1YTZlOTItMmU4OS00NGI2LWJiNGQtYjdhZDljNjBhYjcz");
     }
 }
