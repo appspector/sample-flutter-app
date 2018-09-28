@@ -10,7 +10,7 @@ class SampleAppDrawer extends StatelessWidget {
       children: <Widget>[
         DrawerHeader(
           child: Text(""),
-          decoration: BoxDecoration(color: Colors.cyan),
+          decoration: BoxDecoration(color: Theme.of(context).primaryColor),
         ),
         ListTile(
           title: Text("Main Screen"),
