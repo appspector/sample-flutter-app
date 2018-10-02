@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'routes.dart';
 import 'sqlite_page.dart';
+import 'http_page.dart';
 import 'main_page.dart';
 import 'color.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -26,6 +28,7 @@ class MyApp extends StatelessWidget {
       home: MyHomePage(title: 'Flutter Demo Home Page'),
       routes: {
         Routes.SQLiteMonitorPage: (BuildContext context) => SQLitePage(),
+        Routes.HttpMonitorPage: (BuildContext context) => HttpMonitorPage(),
       },
     );
   }

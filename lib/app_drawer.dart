@@ -21,6 +21,11 @@ class SampleAppDrawer extends StatelessWidget {
           onTap: () =>
               Navigator.pushReplacementNamed(context, Routes.SQLiteMonitorPage),
         ),
+        ListTile(
+          title: Text("Http Monitor"),
+          onTap: () =>
+              Navigator.pushReplacementNamed(context, Routes.HttpMonitorPage),
+        ),
       ],
     ));
   }
