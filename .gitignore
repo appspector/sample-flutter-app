@@ -11,3 +11,7 @@ build/
 .idea/*
 !.idea/codeStyles/
 *.iml
+
+xcshareddata
+Podfile.lock
+pubspec.lock
