@@ -1,12 +1,23 @@
+import 'package:appspector/appspector.dart';
 import 'package:flutter/material.dart';
-import 'routes.dart';
-import 'sqlite_page.dart';
+
+import 'color.dart';
 import 'http_page.dart';
 import 'main_page.dart';
-import 'color.dart';
+import 'routes.dart';
+import 'sqlite_page.dart';
 
+void main() {
+  runAppSpector();
+  runApp(MyApp());
+}
 
-void main() => runApp(MyApp());
+void runAppSpector() {
+  var config = new Config();
+  config.iosApiKey = "YjU1NDVkZGEtN2U3Zi00MDM3LTk5ZGQtNzdkNzY3YmUzZGY2";
+  config.androidApiKey = "MWM1YTZlOTItMmU4OS00NGI2LWJiNGQtYjdhZDljNjBhYjcz";
+  AppSpectorPlugin.run(config);
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.

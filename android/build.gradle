@@ -1,14 +1,11 @@
 buildscript {
-    ext.appSpectorVersion = '1.0.3'
     repositories {
         google()
         jcenter()
-        maven { url "https://maven.appspector.com/artifactory/android-sdk" }
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.4'
-        classpath "com.appspector:android-sdk-plugin:$appSpectorVersion"
+        classpath 'com.android.tools.build:gradle:3.3.0'
     }
 }
 
@@ -16,7 +13,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url "https://maven.appspector.com/artifactory/android-sdk" }
     }
 }
 
